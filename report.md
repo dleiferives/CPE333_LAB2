@@ -573,7 +573,7 @@ This module essentailly allows the communication between the cache and the CPU. 
 - MISS_WRITE_READ: This state essentailly handles the write back, where it will first read in the new memory, and then call the next state (MISS_WRITE), where the data is written into the newly read memory.
 - MISS_WRITE: This state is a continuation of a missed write, where the data is written into the newly read memory.
 
-![](C:\school\CPE\333\LAB2\controller2.png)
+![](controller2.png)
 ```systemverilog
 /* MODIFY. The cache controller. It is a state machine
 that controls the behavior of the cache. */
@@ -966,5 +966,5 @@ The results of the test bench are as follows:
 Stopped at time : 14970 ns : File "C:/school/CPE/333/LAB2/lab2_v3/cache_testbench_v2.sv" Line 161
 ```
 The simulation waveform for the testbench is shown below as well:
-![](C:\school\CPE\333\LAB2\simulation_screencap.png)
+![](simulation_screencap.png)
 
