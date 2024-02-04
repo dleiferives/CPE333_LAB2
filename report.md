@@ -17,13 +17,17 @@ The cache was developed in the following specfic order:
 
 This was to ensure that the cache could be tested at each stage of development.
 Specific tests were written for each stage of development to ensure that the cache was functioning as expected.
+
 Then the given cache testbench was used to test the cache as a whole.
+
+
 ---
 ### Cacheline Adaptor
 The cacheline adaptor was the first module developed. It was responsible for converting the memory interface of the cache to the memory interface of the main memory. This was done by reading from the cache line and converting it to the form to be written to main memory, and vice versa. The module was implemented as a state machine with 5 states: IDLE, READ_MEMORY, FINISH_READ, WRITE_MEMORY, and WAIT_WRITE. The module was tested by running a series of TCL commands. And by a modified test bench 
 
 Reading was implemented first since it was a simpler problem to break down into steps. This is a theme that was consistent throughout the lab report since, as the lab progressed, the problems became more complex and required more steps to solve.
 
+I had bugs relating to reading in the data at each new clock cycle. I at first did not understand that this was the expected behaviour. However, once that became clear, I was able to fix the bugs and the module worked as expected.
 ```systemverilog 
 module cacheline_adaptor
 (
@@ -260,6 +264,10 @@ $display("%s==== (checking invalid tag match) Read, cold-start miss (allocate, b
 ---
 ### Memory Architecture and Cache Datapath
 The memory architecture of the RISV-V otter is a basic 32 bit memory that is byte accessable. To make the design more modular the memory for the cache is implemented as flat and packed values that are split to be accesssed.
+
+I had some bugs relating to accessing/ assigning packed and unpacked types. I eventually changed how the code was constructed to make it work.
+
+I had a bug for quite a while where I was accessing the array_offset from [2:0], which was not giving the correct memory offset for the 32 bits. This is obviously because there is a 4 byte offset for each word. I changed this to [4:2] and it worked.
 
 This gets implemented in the cache datapath module as follows:
 ``` systemverilog
