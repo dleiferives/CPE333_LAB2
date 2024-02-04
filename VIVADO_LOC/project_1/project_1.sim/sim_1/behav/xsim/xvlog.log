@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/school/CPE/333/LAB2/lab2_v3/cache/cache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/school/CPE/333/LAB2/lab2_v3/cache/cache_control.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/school/CPE/333/LAB2/lab2_v3/cache/cache_datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/school/CPE/333/LAB2/lab2_v3/memory/cache_monitor_itf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_cache_monitor_itf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/school/CPE/333/LAB2/lab2_v3/cache/cacheline_adaptor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cacheline_adaptor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ParamMemory
+WARNING: [VRFC 10-3467] initial value of parameter 'DELAY_MEM' is omitted [C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv:6]
+WARNING: [VRFC 10-3467] initial value of parameter 'DELAY_PAGE_HIT' is omitted [C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv:7]
+WARNING: [VRFC 10-3467] initial value of parameter 'BURST_LEN' is omitted [C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv:8]
+WARNING: [VRFC 10-3467] initial value of parameter 'CACHE_LINE_WIDTH' is omitted [C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv:9]
+WARNING: [VRFC 10-3467] initial value of parameter 'PAGE_SIZE' is omitted [C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv:10]
+WARNING: [VRFC 10-3467] initial value of parameter 'USE_STROBE' is omitted [C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv:11]
+WARNING: [VRFC 10-3824] variable 'iteration' must explicitly be declared as automatic or static [C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv:38]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/school/CPE/333/LAB2/lab2_v3/memory/shadow_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shadow_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/school/CPE/333/LAB2/lab2_v3/cache_testbench_v2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_testbench

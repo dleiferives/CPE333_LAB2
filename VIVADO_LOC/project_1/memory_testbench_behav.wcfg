@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="memory_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_cache_sv_3584007528 " />
+            <top_module name="glbl" />
+            <top_module name="memory_testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7,072.083 ns"></ZoomStartTime>
+      <ZoomEndTime time="7,585.584 ns"></ZoomEndTime>
+      <Cursor1Time time="7,500.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="227"></NameColumnWidth>
+      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="group65" type="group">
+      <obj_property name="label">cache</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/memory_testbench/cache/tag" type="array">
+         <obj_property name="ElementShortName">tag[23:0]</obj_property>
+         <obj_property name="ObjectShortName">tag[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/index" type="array">
+         <obj_property name="ElementShortName">index[2:0]</obj_property>
+         <obj_property name="ObjectShortName">index[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/offset" type="array">
+         <obj_property name="ElementShortName">offset[4:0]</obj_property>
+         <obj_property name="ObjectShortName">offset[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/byte_enable" type="array">
+         <obj_property name="ElementShortName">byte_enable[3:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_enable[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu2datapath_data" type="array">
+         <obj_property name="ElementShortName">cpu2datapath_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu2datapath_data[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath2controller_hit" type="logic">
+         <obj_property name="ElementShortName">datapath2controller_hit</obj_property>
+         <obj_property name="ObjectShortName">datapath2controller_hit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath2controller_miss" type="logic">
+         <obj_property name="ElementShortName">datapath2controller_miss</obj_property>
+         <obj_property name="ObjectShortName">datapath2controller_miss</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath2controller_data" type="array">
+         <obj_property name="ElementShortName">datapath2controller_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">datapath2controller_data[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/controller2datapath_read" type="logic">
+         <obj_property name="ElementShortName">controller2datapath_read</obj_property>
+         <obj_property name="ObjectShortName">controller2datapath_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/controller2datapath_write" type="logic">
+         <obj_property name="ElementShortName">controller2datapath_write</obj_property>
+         <obj_property name="ObjectShortName">controller2datapath_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/s_offset" type="array">
+         <obj_property name="ElementShortName">s_offset[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_offset[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/s_index" type="array">
+         <obj_property name="ElementShortName">s_index[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_index[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/s_tag" type="array">
+         <obj_property name="ElementShortName">s_tag[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_tag[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/s_mask" type="array">
+         <obj_property name="ElementShortName">s_mask[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_mask[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/s_line" type="array">
+         <obj_property name="ElementShortName">s_line[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_line[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/num_sets" type="array">
+         <obj_property name="ElementShortName">num_sets[31:0]</obj_property>
+         <obj_property name="ObjectShortName">num_sets[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/TAG_MSB" type="array">
+         <obj_property name="ElementShortName">TAG_MSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TAG_MSB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/TAG_LSB" type="array">
+         <obj_property name="ElementShortName">TAG_LSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TAG_LSB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/INDEX_MSB" type="array">
+         <obj_property name="ElementShortName">INDEX_MSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INDEX_MSB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/INDEX_LSB" type="array">
+         <obj_property name="ElementShortName">INDEX_LSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INDEX_LSB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/OFFSET_MSB" type="array">
+         <obj_property name="ElementShortName">OFFSET_MSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OFFSET_MSB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/OFFSET_LSB" type="array">
+         <obj_property name="ElementShortName">OFFSET_LSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OFFSET_LSB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/errcode" type="array">
+         <obj_property name="ElementShortName">errcode[15:0]</obj_property>
+         <obj_property name="ObjectShortName">errcode[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/sm_error" type="logic">
+         <obj_property name="ElementShortName">sm_error</obj_property>
+         <obj_property name="ObjectShortName">sm_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/pm_error" type="logic">
+         <obj_property name="ElementShortName">pm_error</obj_property>
+         <obj_property name="ObjectShortName">pm_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/halt" type="logic">
+         <obj_property name="ElementShortName">halt</obj_property>
+         <obj_property name="ObjectShortName">halt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_resp" type="logic">
+         <obj_property name="ElementShortName">mem_resp</obj_property>
+         <obj_property name="ObjectShortName">mem_resp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_read" type="logic">
+         <obj_property name="ElementShortName">mem_read</obj_property>
+         <obj_property name="ObjectShortName">mem_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_write" type="logic">
+         <obj_property name="ElementShortName">mem_write</obj_property>
+         <obj_property name="ObjectShortName">mem_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_rdata" type="array">
+         <obj_property name="ElementShortName">mem_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_wdata" type="array">
+         <obj_property name="ElementShortName">mem_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_address" type="array">
+         <obj_property name="ElementShortName">mem_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_address[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_byte_enable" type="array">
+         <obj_property name="ElementShortName">mem_byte_enable[3:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_byte_enable[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/BURST_LEN" type="array">
+         <obj_property name="ElementShortName">BURST_LEN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BURST_LEN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/errcode" type="array">
+         <obj_property name="ElementShortName">errcode[15:0]</obj_property>
+         <obj_property name="ObjectShortName">errcode[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/sm_error" type="logic">
+         <obj_property name="ElementShortName">sm_error</obj_property>
+         <obj_property name="ObjectShortName">sm_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/pm_error" type="logic">
+         <obj_property name="ElementShortName">pm_error</obj_property>
+         <obj_property name="ObjectShortName">pm_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/halt" type="logic">
+         <obj_property name="ElementShortName">halt</obj_property>
+         <obj_property name="ObjectShortName">halt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_resp" type="logic">
+         <obj_property name="ElementShortName">mem_resp</obj_property>
+         <obj_property name="ObjectShortName">mem_resp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_read" type="logic">
+         <obj_property name="ElementShortName">mem_read</obj_property>
+         <obj_property name="ObjectShortName">mem_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_write" type="logic">
+         <obj_property name="ElementShortName">mem_write</obj_property>
+         <obj_property name="ObjectShortName">mem_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_rdata" type="array">
+         <obj_property name="ElementShortName">mem_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_wdata" type="array">
+         <obj_property name="ElementShortName">mem_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_address" type="array">
+         <obj_property name="ElementShortName">mem_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_address[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_byte_enable" type="array">
+         <obj_property name="ElementShortName">mem_byte_enable[3:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_byte_enable[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/BURST_LEN" type="array">
+         <obj_property name="ElementShortName">BURST_LEN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BURST_LEN[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group224" type="group">
+      <obj_property name="label">cpu_itf</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/errcode" type="array">
+         <obj_property name="ElementShortName">errcode[15:0]</obj_property>
+         <obj_property name="ObjectShortName">errcode[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/sm_error" type="logic">
+         <obj_property name="ElementShortName">sm_error</obj_property>
+         <obj_property name="ObjectShortName">sm_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/pm_error" type="logic">
+         <obj_property name="ElementShortName">pm_error</obj_property>
+         <obj_property name="ObjectShortName">pm_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/halt" type="logic">
+         <obj_property name="ElementShortName">halt</obj_property>
+         <obj_property name="ObjectShortName">halt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_resp" type="logic">
+         <obj_property name="ElementShortName">mem_resp</obj_property>
+         <obj_property name="ObjectShortName">mem_resp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_read" type="logic">
+         <obj_property name="ElementShortName">mem_read</obj_property>
+         <obj_property name="ObjectShortName">mem_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_write" type="logic">
+         <obj_property name="ElementShortName">mem_write</obj_property>
+         <obj_property name="ObjectShortName">mem_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_rdata" type="array">
+         <obj_property name="ElementShortName">mem_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_wdata" type="array">
+         <obj_property name="ElementShortName">mem_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_address" type="array">
+         <obj_property name="ElementShortName">mem_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_address[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/cpu_itf/mem_byte_enable" type="array">
+         <obj_property name="ElementShortName">mem_byte_enable[3:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_byte_enable[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group239" type="group">
+      <obj_property name="label">ca_itf</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/errcode" type="array">
+         <obj_property name="ElementShortName">errcode[15:0]</obj_property>
+         <obj_property name="ObjectShortName">errcode[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/sm_error" type="logic">
+         <obj_property name="ElementShortName">sm_error</obj_property>
+         <obj_property name="ObjectShortName">sm_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/pm_error" type="logic">
+         <obj_property name="ElementShortName">pm_error</obj_property>
+         <obj_property name="ObjectShortName">pm_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/halt" type="logic">
+         <obj_property name="ElementShortName">halt</obj_property>
+         <obj_property name="ObjectShortName">halt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/mem_resp" type="logic">
+         <obj_property name="ElementShortName">mem_resp</obj_property>
+         <obj_property name="ObjectShortName">mem_resp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/mem_read" type="logic">
+         <obj_property name="ElementShortName">mem_read</obj_property>
+         <obj_property name="ObjectShortName">mem_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/mem_write" type="logic">
+         <obj_property name="ElementShortName">mem_write</obj_property>
+         <obj_property name="ObjectShortName">mem_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/mem_rdata" type="array">
+         <obj_property name="ElementShortName">mem_rdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/mem_wdata" type="array">
+         <obj_property name="ElementShortName">mem_wdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/mem_address" type="array">
+         <obj_property name="ElementShortName">mem_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_address[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/mem_byte_enable" type="array">
+         <obj_property name="ElementShortName">mem_byte_enable[3:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_byte_enable[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/ca_itf/BURST_LEN" type="array">
+         <obj_property name="ElementShortName">BURST_LEN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BURST_LEN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/datapath_hit" type="logic">
+         <obj_property name="ElementShortName">datapath_hit</obj_property>
+         <obj_property name="ObjectShortName">datapath_hit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/datapath_miss" type="logic">
+         <obj_property name="ElementShortName">datapath_miss</obj_property>
+         <obj_property name="ObjectShortName">datapath_miss</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/datapath_data" type="array">
+         <obj_property name="ElementShortName">datapath_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">datapath_data[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/tag" type="array">
+         <obj_property name="ElementShortName">tag[23:0]</obj_property>
+         <obj_property name="ObjectShortName">tag[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/index" type="array">
+         <obj_property name="ElementShortName">index[2:0]</obj_property>
+         <obj_property name="ObjectShortName">index[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/offset" type="array">
+         <obj_property name="ElementShortName">offset[4:0]</obj_property>
+         <obj_property name="ObjectShortName">offset[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/byte_enable" type="array">
+         <obj_property name="ElementShortName">byte_enable[3:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_enable[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/datapath_read" type="logic">
+         <obj_property name="ElementShortName">datapath_read</obj_property>
+         <obj_property name="ObjectShortName">datapath_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/datapath_write" type="logic">
+         <obj_property name="ElementShortName">datapath_write</obj_property>
+         <obj_property name="ObjectShortName">datapath_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/state" type="array">
+         <obj_property name="ElementShortName">state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/s_offset" type="array">
+         <obj_property name="ElementShortName">s_offset[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_offset[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/s_index" type="array">
+         <obj_property name="ElementShortName">s_index[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_index[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/s_tag" type="array">
+         <obj_property name="ElementShortName">s_tag[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_tag[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/s_mask" type="array">
+         <obj_property name="ElementShortName">s_mask[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_mask[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/s_line" type="array">
+         <obj_property name="ElementShortName">s_line[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_line[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/num_sets" type="array">
+         <obj_property name="ElementShortName">num_sets[31:0]</obj_property>
+         <obj_property name="ObjectShortName">num_sets[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/TAG_MSB" type="array">
+         <obj_property name="ElementShortName">TAG_MSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TAG_MSB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/TAG_LSB" type="array">
+         <obj_property name="ElementShortName">TAG_LSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TAG_LSB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/INDEX_MSB" type="array">
+         <obj_property name="ElementShortName">INDEX_MSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INDEX_MSB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/INDEX_LSB" type="array">
+         <obj_property name="ElementShortName">INDEX_LSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INDEX_LSB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/OFFSET_MSB" type="array">
+         <obj_property name="ElementShortName">OFFSET_MSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OFFSET_MSB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/OFFSET_LSB" type="array">
+         <obj_property name="ElementShortName">OFFSET_LSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OFFSET_LSB[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group284" type="group">
+      <obj_property name="label">controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/memory_testbench/cache/control/datapath_hit" type="logic">
+         <obj_property name="ElementShortName">datapath_hit</obj_property>
+         <obj_property name="ObjectShortName">datapath_hit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/datapath_miss" type="logic">
+         <obj_property name="ElementShortName">datapath_miss</obj_property>
+         <obj_property name="ObjectShortName">datapath_miss</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/datapath_data" type="array">
+         <obj_property name="ElementShortName">datapath_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">datapath_data[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/tag" type="array">
+         <obj_property name="ElementShortName">tag[23:0]</obj_property>
+         <obj_property name="ObjectShortName">tag[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/index" type="array">
+         <obj_property name="ElementShortName">index[2:0]</obj_property>
+         <obj_property name="ObjectShortName">index[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/offset" type="array">
+         <obj_property name="ElementShortName">offset[4:0]</obj_property>
+         <obj_property name="ObjectShortName">offset[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/byte_enable" type="array">
+         <obj_property name="ElementShortName">byte_enable[3:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_enable[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/datapath_read" type="logic">
+         <obj_property name="ElementShortName">datapath_read</obj_property>
+         <obj_property name="ObjectShortName">datapath_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/datapath_write" type="logic">
+         <obj_property name="ElementShortName">datapath_write</obj_property>
+         <obj_property name="ObjectShortName">datapath_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/control/state" type="array">
+         <obj_property name="ElementShortName">state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group319" type="group">
+      <obj_property name="label">datapath</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/memory_testbench/cache/datapath/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/addr_tag" type="array">
+         <obj_property name="ElementShortName">addr_tag[23:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_tag[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/addr_index" type="array">
+         <obj_property name="ElementShortName">addr_index[2:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_index[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/addr_offset" type="array">
+         <obj_property name="ElementShortName">addr_offset[4:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_offset[4:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[255:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/read" type="logic">
+         <obj_property name="ElementShortName">read</obj_property>
+         <obj_property name="ObjectShortName">read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/write" type="logic">
+         <obj_property name="ElementShortName">write</obj_property>
+         <obj_property name="ObjectShortName">write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[255:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/miss" type="logic">
+         <obj_property name="ElementShortName">miss</obj_property>
+         <obj_property name="ObjectShortName">miss</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/hit" type="logic">
+         <obj_property name="ElementShortName">hit</obj_property>
+         <obj_property name="ObjectShortName">hit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/valid1" type="array">
+         <obj_property name="ElementShortName">valid1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">valid1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/valid2" type="array">
+         <obj_property name="ElementShortName">valid2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">valid2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/dirty1" type="array">
+         <obj_property name="ElementShortName">dirty1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dirty1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/dirty2" type="array">
+         <obj_property name="ElementShortName">dirty2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dirty2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/tag1" type="array">
+         <obj_property name="ElementShortName">tag1[0:7][23:0]</obj_property>
+         <obj_property name="ObjectShortName">tag1[0:7][23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/tag2" type="array">
+         <obj_property name="ElementShortName">tag2[0:7][23:0]</obj_property>
+         <obj_property name="ObjectShortName">tag2[0:7][23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/data1" type="array">
+         <obj_property name="ElementShortName">data1[0:7][255:0]</obj_property>
+         <obj_property name="ObjectShortName">data1[0:7][255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/data2" type="array">
+         <obj_property name="ElementShortName">data2[0:7][255:0]</obj_property>
+         <obj_property name="ObjectShortName">data2[0:7][255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/lru1" type="array">
+         <obj_property name="ElementShortName">lru1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lru1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/lru2" type="array">
+         <obj_property name="ElementShortName">lru2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lru2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/cache/datapath/data_mask" type="array">
+         <obj_property name="ElementShortName">data_mask[255:0]</obj_property>
+         <obj_property name="ObjectShortName">data_mask[255:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group5254" type="group">
+      <obj_property name="label">pmem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/memory_testbench/pmem_itf/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/pmem_itf/errcode" type="array">
+         <obj_property name="ElementShortName">errcode[15:0]</obj_property>
+         <obj_property name="ObjectShortName">errcode[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/pmem_itf/sm_error" type="logic">
+         <obj_property name="ElementShortName">sm_error</obj_property>
+         <obj_property name="ObjectShortName">sm_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/pmem_itf/pm_error" type="logic">
+         <obj_property name="ElementShortName">pm_error</obj_property>
+         <obj_property name="ObjectShortName">pm_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/pmem_itf/halt" type="logic">
+         <obj_property name="ElementShortName">halt</obj_property>
+         <obj_property name="ObjectShortName">halt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/pmem_itf/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/pmem_itf/mem_resp" type="logic">
+         <obj_property name="ElementShortName">mem_resp</obj_property>
+         <obj_property name="ObjectShortName">mem_resp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/pmem_itf/mem_read" type="logic">
+         <obj_property name="ElementShortName">mem_read</obj_property>
+         <obj_property name="ObjectShortName">mem_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/pmem_itf/mem_write" type="logic">
+         <obj_property name="ElementShortName">mem_write</obj_property>
+         <obj_property name="ObjectShortName">mem_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/pmem_itf/mem_rdata" type="array">
+         <obj_property name="ElementShortName">mem_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/pmem_itf/mem_wdata" type="array">
+         <obj_property name="ElementShortName">mem_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/pmem_itf/mem_address" type="array">
+         <obj_property name="ElementShortName">mem_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_address[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_testbench/pmem_itf/mem_byte_enable" type="array">
+         <obj_property name="ElementShortName">mem_byte_enable[3:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_byte_enable[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/memory_testbench/cacheline_adaptor/word_buffer" type="array">
+      <obj_property name="ElementShortName">word_buffer[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">word_buffer[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_testbench/cacheline_adaptor/cache_line_buffer" type="array">
+      <obj_property name="ElementShortName">cache_line_buffer[255:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_line_buffer[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_testbench/cacheline_adaptor/load_complete" type="logic">
+      <obj_property name="ElementShortName">load_complete</obj_property>
+      <obj_property name="ObjectShortName">load_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_testbench/cacheline_adaptor/store_complete" type="logic">
+      <obj_property name="ElementShortName">store_complete</obj_property>
+      <obj_property name="ObjectShortName">store_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_testbench/cacheline_adaptor/word_buffer_index" type="array">
+      <obj_property name="ElementShortName">word_buffer_index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">word_buffer_index[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_testbench/cacheline_adaptor/cache_line_buffer_index" type="array">
+      <obj_property name="ElementShortName">cache_line_buffer_index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_line_buffer_index[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_testbench/cacheline_adaptor/read_word" type="logic">
+      <obj_property name="ElementShortName">read_word</obj_property>
+      <obj_property name="ObjectShortName">read_word</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_testbench/cacheline_adaptor/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_testbench/cacheline_adaptor/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_testbench/cacheline_adaptor/CACHE_LINE_SIZE" type="array">
+      <obj_property name="ElementShortName">CACHE_LINE_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CACHE_LINE_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_testbench/cacheline_adaptor/WORD_SIZE" type="array">
+      <obj_property name="ElementShortName">WORD_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WORD_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_testbench/cacheline_adaptor/WORDS_PER_CACHE_LINE" type="array">
+      <obj_property name="ElementShortName">WORDS_PER_CACHE_LINE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WORDS_PER_CACHE_LINE[31:0]</obj_property>
+   </wvobject>
+</wave_config>

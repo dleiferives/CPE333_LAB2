@@ -1,0 +1,55 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot cache_testbench_behav xil_defaultlib.cache_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv" Line 5. Module mem_itf doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv" Line 20. Module mcb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv" Line 5. Module mem_itf(BURST_LEN=256) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv" Line 5. Module mem_itf doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv" Line 20. Module mcb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/cache_monitor_itf.sv" Line 2. Module cache_monitor_itf doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/cache_monitor_itf.sv" Line 12. Module cmcb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/cache/cache.sv" Line 4. Module cache(ca_itf=mem_itf(BURST_LEN=256)_controller) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/cache/cache_control.sv" Line 4. Module cache_control(ca_itf=mem_itf(BURST_LEN=256)_controller) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/cache/cache_datapath.sv" Line 5. Module cache_datapath(ca_itf=mem_itf(BURST_LEN=256)_controller) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/cache/cacheline_adaptor.sv" Line 1. Module cacheline_adaptor(ca_itf=mem_itf(BURST_LEN=256)_device) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv" Line 4. Module ParamMemory(DELAY_MEM=25,DELAY_PAGE_HIT=13,BURST_LEN=8,CACHE_LINE_WIDTH=256,PAGE_SIZE=512,USE_STROBE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/shadow_memory.sv" Line 2. Module shadow_memory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv" Line 5. Module mem_itf doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv" Line 20. Module mcb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv" Line 20. Module mcb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv" Line 5. Module mem_itf(BURST_LEN=256) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv" Line 5. Module mem_itf doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv" Line 20. Module mcb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv" Line 20. Module mcb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/cache_monitor_itf.sv" Line 2. Module cache_monitor_itf doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/cache_monitor_itf.sv" Line 12. Module cmcb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/cache_monitor_itf.sv" Line 12. Module cmcb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/cache/cache.sv" Line 4. Module cache(ca_itf=mem_itf(BURST_LEN=256)_controller) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/cache/cache_control.sv" Line 4. Module cache_control(ca_itf=mem_itf(BURST_LEN=256)_controller) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/cache/cache_datapath.sv" Line 5. Module cache_datapath(ca_itf=mem_itf(BURST_LEN=256)_controller) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/cache/cacheline_adaptor.sv" Line 1. Module cacheline_adaptor(ca_itf=mem_itf(BURST_LEN=256)_device) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv" Line 4. Module ParamMemory(DELAY_MEM=25,DELAY_PAGE_HIT=13,BURST_LEN=8,CACHE_LINE_WIDTH=256,PAGE_SIZE=512,USE_STROBE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/school/CPE/333/LAB2/lab2_v3/memory/shadow_memory.sv" Line 2. Module shadow_memory doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_cache_sv_2452726415
+Compiling module xil_defaultlib.mcb
+Compiling module xil_defaultlib.mem_itf
+Compiling module xil_defaultlib.mem_itf(BURST_LEN=256)
+Compiling module xil_defaultlib.cmcb
+Compiling module xil_defaultlib.cache_monitor_itf
+Compiling module xil_defaultlib.cache_control(ca_itf=mem_itf(BUR...
+Compiling module xil_defaultlib.cache_datapath(ca_itf=mem_itf(BU...
+Compiling module xil_defaultlib.cache(ca_itf=mem_itf(BURST_LEN=2...
+Compiling module xil_defaultlib.cacheline_adaptor(ca_itf=mem_itf...
+Compiling module xil_defaultlib.ParamMemory(DELAY_MEM=25,DELAY_P...
+Compiling module xil_defaultlib.shadow_memory
+Compiling module xil_defaultlib.cb
+Compiling module xil_defaultlib.cache_testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cache_testbench_behav

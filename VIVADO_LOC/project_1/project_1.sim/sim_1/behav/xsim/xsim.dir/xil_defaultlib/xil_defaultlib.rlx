@@ -1,0 +1,15 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/school/CPE/333/LAB2/VIVADO_LOC/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,uvm,,,,,,
+C:/school/CPE/333/LAB2/lab2_v3/cache/cache.sv,1707000532,systemVerilog,C:/school/CPE/333/LAB2/lab2_v3/cache/cache_control.sv;C:/school/CPE/333/LAB2/lab2_v3/cache/cache_datapath.sv;C:/school/CPE/333/LAB2/lab2_v3/cache/cacheline_adaptor.sv;C:/school/CPE/333/LAB2/lab2_v3/cache_testbench_v2.sv;C:/school/CPE/333/LAB2/lab2_v3/memory/cache_monitor_itf.sv;C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv;C:/school/CPE/333/LAB2/lab2_v3/memory/shadow_memory.sv,C:/school/CPE/333/LAB2/lab2_v3/cache/cache_control.sv,,$unit_cache_sv_2452726415;cache,,uvm,,,,,,
+C:/school/CPE/333/LAB2/lab2_v3/cache/cache_control.sv,1707000673,systemVerilog,,C:/school/CPE/333/LAB2/lab2_v3/cache/cache_datapath.sv,,cache_control,,uvm,,,,,,
+C:/school/CPE/333/LAB2/lab2_v3/cache/cache_datapath.sv,1707016933,systemVerilog,,C:/school/CPE/333/LAB2/lab2_v3/memory/cache_monitor_itf.sv,,cache_datapath,,uvm,,,,,,
+C:/school/CPE/333/LAB2/lab2_v3/cache/cacheline_adaptor.sv,1706997324,systemVerilog,,C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv,,cacheline_adaptor,,uvm,,,,,,
+C:/school/CPE/333/LAB2/lab2_v3/cache_testbench_v2.sv,1706996668,systemVerilog,,,,cache_testbench,,uvm,,,,,,
+C:/school/CPE/333/LAB2/lab2_v3/memory/cache_monitor_itf.sv,1682401434,systemVerilog,C:/school/CPE/333/LAB2/lab2_v3/cache/cacheline_adaptor.sv;C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv;C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv;C:/school/CPE/333/LAB2/lab2_v3/memory/shadow_memory.sv;C:/school/CPE/333/LAB2/lab2_v3/memory_testbench.sv,C:/school/CPE/333/LAB2/lab2_v3/cache/cacheline_adaptor.sv,,cache_monitor_itf;d_cache_monitor_itf,,uvm,,,,,,
+C:/school/CPE/333/LAB2/lab2_v3/memory/mem_itf.sv,1682998516,systemVerilog,,C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv,,d_mem_itf;mem_ift,,uvm,,,,,,
+C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv,1707000005,systemVerilog,,C:/school/CPE/333/LAB2/lab2_v3/memory/shadow_memory.sv,,ParamMemory,,uvm,,,,,,
+C:/school/CPE/333/LAB2/lab2_v3/memory/shadow_memory.sv,1682712108,systemVerilog,,C:/school/CPE/333/LAB2/lab2_v3/cache_testbench_v2.sv,,shadow_memory,,uvm,,,,,,
+C:/school/CPE/333/LAB2/lab2_v3/memory_testbench.sv,1706931200,systemVerilog,,,,memory_testbench,,uvm,,,,,,

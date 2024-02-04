@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../lab2_v3/cache/cache.sv" \
+"../../../../../../lab2_v3/cache/cache_control.sv" \
+"../../../../../../lab2_v3/cache/cache_datapath.sv" \
+"../../../../../../lab2_v3/memory/cache_monitor_itf.sv" \
+"../../../../../../lab2_v3/cache/cacheline_adaptor.sv" \
+"../../../../../../lab2_v3/memory/mem_param.sv" \
+"../../../../../../lab2_v3/memory/shadow_memory.sv" \
+"../../../../../../lab2_v3/cache_testbench_v2.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

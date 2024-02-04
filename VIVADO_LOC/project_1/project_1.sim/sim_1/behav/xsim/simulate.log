@@ -1,0 +1,68 @@
+Time resolution is 1 ps
+WARNING: File otter_memory_blocks.mem referenced on C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv at line 32 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File otter_memory_blocks.mem referenced on C:/school/CPE/333/LAB2/lab2_v3/memory/shadow_memory.sv at line 32 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+Error: simultaneous read/write
+Time: 10 ns  Iteration: 1  Process: /cache_testbench/memory/Initial37_51  Scope: cache_testbench.memory.Block37_52  File: C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv Line: 48
+Error: simultaneous read/write
+Time: 20 ns  Iteration: 1  Process: /cache_testbench/memory/Initial37_51  Scope: cache_testbench.memory.Block37_52  File: C:/school/CPE/333/LAB2/lab2_v3/memory/mem_param.sv Line: 48
+Stopped at time : 500 ns : File "C:/school/CPE/333/LAB2/lab2_v3/cache_testbench_v2.sv" Line 98
+==== (checking invalid tag match) Read, cold-start miss (allocate, block now valid and clean) ==================
+[CPU] read addr=00000000 
+[Memory] Read started addr=00000000
+[Memory] Read finished addr=00000000
+[CPU] got data=47591908
+================ Testing various cases, with delays between ====================================================
+==== Read, cold-start miss (allocate, block now valid and clean) ===============================================
+[CPU] read addr=00123420 
+[Memory] Read started addr=00123420
+[Memory] Read finished addr=00123420
+[CPU] got data=0d6c646f
+==== Write, cold-start miss (allocate then update, block now valid and dirty) ==================================
+[CPU] write addr=00123441 with data=aabbccdd, strobe=f
+[Memory] Read started addr=00123440
+[Memory] Read finished addr=00123440
+[CPU] write accepted
+==== Read, hit, clean block (block still clean) ================================================================
+[CPU] read addr=00123422 
+[CPU] got data=0d6c646f
+==== Read, hit, dirty block (block still dirty) ================================================================
+[CPU] read addr=00123443 
+[CPU] got data=aabbccdd
+==== Read, conflict miss, clean block (allocate, block still clean) ============================================
+[CPU] read addr=00432120 
+[Memory] Read started addr=00432120
+[Memory] Read finished addr=00432120
+[CPU] got data=b68bdf25
+==== Read, conflict miss, dirty block (write back then allocate, block now clean) ==============================
+[CPU] read addr=00432141 
+[Memory] Read started addr=00432140
+[Memory] Read finished addr=00432140
+[CPU] got data=8462b637
+==== Write, hit, clean block (update, block now dirty) =========================================================
+[CPU] write addr=00432122 with data=bbccddee, strobe=f
+[CPU] write accepted
+==== Write, hit, dirty block (update, block still dirty) =======================================================
+[CPU] write addr=00432123 with data=ccddeeff, strobe=f
+[CPU] write accepted
+==== Write, conflict miss, clean block (allocate then update, block now dirty) =================================
+[CPU] write addr=00567840 with data=ddeeffaa, strobe=f
+[Memory] Write started addr=00123440
+[Memory] Write finished addr=00123440
+[Memory] Read started addr=00567840
+[Memory] Read finished addr=00567840
+[CPU] write accepted
+==== Write, conflict miss, dirty block (write back then allocate then update, block still dirty) ===============
+[CPU] write addr=00567821 with data=eeffaabb, strobe=f
+[Memory] Read started addr=00567820
+[Memory] Read finished addr=00567820
+[CPU] write accepted
+==== (verifying state) Read, conflict miss, dirty block (write back then allocate, block now clean) ============
+[CPU] read addr=00876522 
+[Memory] Write started addr=00432120
+[Memory] Write finished addr=00432120
+[Memory] Read started addr=00876520
+[Memory] Read finished addr=00876520
+[CPU] got data=98289334
+==== (verifying state) Read, conflict miss, dirty block (write back then allocate, block now clean) ============
+[CPU] read addr=00876543 
+[Memory] Read started addr=00876540
